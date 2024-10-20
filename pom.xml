@@ -2,7 +2,7 @@
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>eu.smashmc</groupId>
-	<artifactId>smash-parent</artifactId>
+	<artifactId>parent</artifactId>
 	<version>1.0-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<name>smash-parent</name>
@@ -15,6 +15,7 @@
 		<!-- Internal libraries -->
 		<smash-lib.version>1.6.17</smash-lib.version>
 		<smash-api.version>1.10-SNAPSHOT</smash-api.version>
+		<smash-language.version>1.6.17</smash-language.version>
 		<!-- External libraries -->
 		<lombok.version>1.18.34</lombok.version>
 		<junit.version>5.11.2</junit.version>
