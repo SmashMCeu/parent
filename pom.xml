@@ -13,9 +13,9 @@
 		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- Internal libraries -->
-		<smash-lib.version>1.6.17</smash-lib.version>
-		<smash-api.version>1.10-SNAPSHOT</smash-api.version>
-		<smash-language.version>1.6.17</smash-language.version>
+		<smash.api.version>1.10-SNAPSHOT</smash.api.version>
+		<smash.lib.version>1.6.17</smash.lib.version>
+		<smash.language.version>1.4.2</smash.language.version>
 		<!-- External libraries -->
 		<lombok.version>1.18.34</lombok.version>
 		<junit.version>5.11.2</junit.version>
