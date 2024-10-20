@@ -13,7 +13,7 @@
 		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- Internal libraries -->
-		<smash.api.version>1.10-SNAPSHOT</smash.api.version>
+		<smash.api.version>1.11-SNAPSHOT</smash.api.version>
 		<smash.lib.version>1.6.17</smash.lib.version>
 		<smash.language.version>1.4.2</smash.language.version>
 		<!-- External libraries -->
