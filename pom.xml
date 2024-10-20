@@ -70,13 +70,6 @@
 				<version>${maven.surefire.version}</version>
 			</plugin>
 		</plugins>
-		<!-- Process plugin.yml in build -->
-		<resources>
-			<resource>
-				<directory>src/main/resources</directory>
-				<filtering>true</filtering>
-			</resource>
-		</resources>
 		<!-- Final jar without version for CICD  -->
 		<finalName>${project.artifactId}</finalName>
 	</build>
