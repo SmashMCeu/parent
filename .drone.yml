@@ -22,7 +22,7 @@ steps:
   - name: Deploy
     image: maven:3.9.6-eclipse-temurin-21-alpine
     commands:
-      - mvn deploy -B -gs settings.xml
+      - mvn deploy -DaltDeploymentRepository=internal.repo::smashmc-public::https://repo.smashmc.eu/public -B -gs settings.xml
     when:
       branch:
         - main
