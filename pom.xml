@@ -33,7 +33,7 @@
 		<dependency>
 			<groupId>eu.smashmc</groupId>
 			<artifactId>smash-api</artifactId>
-			<version>${smash-api.version}</version>
+			<version>${smash.api.version}</version>
 			<scope>provided</scope>
 		</dependency>
 		<dependency>
