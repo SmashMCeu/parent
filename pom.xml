@@ -15,7 +15,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<!-- Internal libraries -->
 		<smash-api.version>1.11-SNAPSHOT</smash-api.version>
-		<smash-lib.version>1.7.2</smash-lib.version>
+		<smash-lib.version>1.7.3</smash-lib.version>
 		<language.version>1.4.2</language.version>
 		<!-- External libraries -->
 		<lombok.version>1.18.38</lombok.version>
