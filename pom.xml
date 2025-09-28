@@ -18,12 +18,12 @@
 		<smash-lib.version>1.7.3</smash-lib.version>
 		<language.version>1.4.2</language.version>
 		<!-- External libraries -->
-		<lombok.version>1.18.40</lombok.version>
+		<lombok.version>1.18.42</lombok.version>
 		<junit.version>5.13.4</junit.version>
-		<mockito.version>5.19.0</mockito.version>
+		<mockito.version>5.20.0</mockito.version>
 		<maven.surefire.version>3.5.4</maven.surefire.version>
-		<maven.compiler.plugin.version>3.14.0</maven.compiler.plugin.version>
-		<redisson.version>3.51.0</redisson.version>
+		<maven.compiler.plugin.version>3.14.1</maven.compiler.plugin.version>
+		<redisson.version>3.52.0</redisson.version>
 		<kryo.version>5.6.2</kryo.version>
 	</properties>
 	<dependencies>
