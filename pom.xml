@@ -18,7 +18,7 @@
         <smash-lib.version>1.7.5</smash-lib.version>
         <language.version>1.4.2</language.version>
         <!-- External libraries -->
-        <lombok.version>1.18.42</lombok.version>
+        <lombok.version>1.18.44</lombok.version>
         <junit.version>5.13.4</junit.version>
         <mockito.version>5.20.0</mockito.version>
         <maven.surefire.version>3.5.4</maven.surefire.version>
