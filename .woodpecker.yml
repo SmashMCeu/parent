@@ -26,3 +26,19 @@ steps:
     image: maven:3.9.12-eclipse-temurin-25-alpine
     commands:
       - mvn deploy -DaltDeploymentRepository=internal.repo::https://repo.smashmc.eu/public -B -gs settings.xml
+
+  - name: Trigger ServiceParent build
+    image: woodpeckerci/plugin-trigger
+    settings:
+      repositories:
+        - SmashMCeu/service-parent
+      token:
+        from_secret: woodpecker_server_auth_token
+
+  - name: Trigger PluginParent build
+    image: woodpeckerci/plugin-trigger
+    settings:
+      repositories:
+        - SmashMCeu/plugin-parent
+      token:
+        from_secret: woodpecker_server_auth_token
