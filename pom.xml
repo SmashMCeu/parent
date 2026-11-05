@@ -8,23 +8,24 @@
     <name>smash-parent</name>
     <properties>
         <!-- General config -->
-        <maven.compiler.target>25</maven.compiler.target>
         <maven.compiler.source>25</maven.compiler.source>
+        <maven.compiler.target>25</maven.compiler.target>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <!-- Internal libraries -->
         <smash-api.version>1.12-SNAPSHOT</smash-api.version>
-        <smash-lib.version>1.7.6</smash-lib.version>
+        <smash-lib.version>1.7.7</smash-lib.version>
+        <smash-core.version>1.6.1</smash-core.version>
         <language.version>1.4.2</language.version>
         <!-- External libraries -->
-        <lombok.version>1.18.44</lombok.version>
-        <junit.version>5.13.4</junit.version>
-        <mockito.version>5.20.0</mockito.version>
-        <maven.surefire.version>3.5.4</maven.surefire.version>
-        <maven.compiler.plugin.version>3.14.1</maven.compiler.plugin.version>
+        <lombok.version>1.18.48</lombok.version>
+        <junit.version>5.14.4</junit.version>
+        <mockito.version>5.24.0</mockito.version>
+        <maven.surefire.version>3.6.1</maven.surefire.version>
+        <maven.compiler.plugin.version>3.16.0</maven.compiler.plugin.version>
         <redisson.version>3.52.0</redisson.version>
-        <kryo.version>5.6.2</kryo.version>
+        <kryo.version>5.7.1</kryo.version>
     </properties>
     <dependencies>
         <dependency>
