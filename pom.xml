@@ -15,7 +15,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <!-- Internal libraries -->
         <smash-api.version>1.12-SNAPSHOT</smash-api.version>
-        <smash-lib.version>1.7.7</smash-lib.version>
+        <smash-lib.version>1.7.8</smash-lib.version>
         <smash-core.version>1.6.1</smash-core.version>
         <language.version>1.4.2</language.version>
         <!-- External libraries -->
